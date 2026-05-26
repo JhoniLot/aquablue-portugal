@@ -8,10 +8,10 @@ const Contact = () => {
       <div className="container">
         <div className="contact-card">
           <div className="contact-content">
-            <h2 className="section-title" style={{textAlign: 'left', marginBottom: '1rem'}}>Pronta para transformar seu dia?</h2>
+            <h2 className="section-title" style={{textAlign: 'left', marginBottom: '1rem'}}>Pronta para transformar o seu dia?</h2>
             <p className="contact-desc">
-              Não temos burocracia nem filas de espera. O seu agendamento é feito 
-              de forma rápida e direta pelo nosso WhatsApp. Fale com a nossa equipe agora mesmo!
+              Sem burocracias nem filas de espera. O seu agendamento é feito 
+              de forma rápida e direta pelo nosso WhatsApp. Fale com a nossa equipa agora mesmo!
             </p>
             
             <a href="https://wa.me/351913306899" target="_blank" rel="noreferrer" className="btn btn-whatsapp whatsapp-lg">
@@ -37,7 +37,7 @@ const Contact = () => {
           
           <div className="contact-image-wrapper">
              <div className="contact-image-placeholder">
-                <h3 className="contact-image-title">Sua Beleza em Boas Mãos</h3>
+                <h3 className="contact-image-title">A sua beleza em boas mãos</h3>
              </div>
           </div>
         </div>

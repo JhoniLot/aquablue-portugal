@@ -4,7 +4,7 @@ import { Sparkles, Droplets, Smile, Fingerprint, Activity, Heart, Star, Sun, Win
 import './Services.css';
 
 const services = [
-  { id: 1, name: 'Microneedling', icon: <Activity size={24} />, desc: 'Renovação celular e estímulo de colágeno.' },
+  { id: 1, name: 'Microneedling', icon: <Activity size={24} />, desc: 'Renovação celular e estimulação de colagénio.' },
   { id: 2, name: 'Limpeza facial', icon: <Droplets size={24} />, desc: 'Pele livre de impurezas, macia e hidratada.' },
   { id: 3, name: 'Epilação a laser', icon: <Sun size={24} />, desc: 'Pele lisa com tecnologia indolor.' },
   { id: 4, name: 'Epilação a cera', icon: <Wind size={24} />, desc: 'Método tradicional com cera hipoalergênica.' },
@@ -22,8 +22,8 @@ const Services = () => {
   return (
     <section id="services" className="services-section">
       <div className="container">
-        <h2 className="section-title">Nossos Tratamentos</h2>
-        <p className="section-subtitle">Descubra nossa gama completa de serviços pensados para realçar a sua beleza natural.</p>
+        <h2 className="section-title">Os Nossos Tratamentos</h2>
+        <p className="section-subtitle">Descubra a nossa gama completa de serviços pensados para realçar a sua beleza natural.</p>
         
         <div className="services-grid">
           {services.map((item, index) => (

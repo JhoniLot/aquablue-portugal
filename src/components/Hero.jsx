@@ -17,11 +17,11 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <span className="hero-subtitle">Sua Melhor Versão</span>
-          <h1 className="hero-title">Realce sua beleza com a <span>AquaBlue</span></h1>
+          <span className="hero-subtitle">A sua melhor versão</span>
+          <h1 className="hero-title">Realce a sua beleza com a <span>AquaBlue</span></h1>
           <p className="hero-description">
             Especialistas em estética avançada. Agende uma avaliação e descubra 
-            o tratamento ideal para suas necessidades.
+            o tratamento ideal para as suas necessidades.
           </p>
           
           <div className="hero-buttons">

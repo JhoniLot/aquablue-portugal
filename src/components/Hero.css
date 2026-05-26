@@ -83,11 +83,11 @@
   }
   .hero-bg-container {
     position: relative;
-    width: 85%;
-    max-width: 360px;
-    height: 380px; /* Destaque vertical para a foto da recepção */
+    width: 90%;
+    max-width: 390px;
+    height: 410px; /* Destaque vertical ampliado */
     margin: 1.5rem auto 0.5rem auto;
-    border-radius: 180px 180px 25px 25px; /* Arco romano perfeito no topo com base levemente curva */
+    border-radius: 200px 200px 25px 25px; /* Arco romano perfeito e maior */
     border: 2px solid var(--primary); /* Moldura dourada finíssima e elegante */
     box-shadow: 0 15px 35px rgba(212, 175, 55, 0.18); /* Sombra com brilho dourado suave */
     z-index: 1;
@@ -139,8 +139,8 @@
 
 @media (max-width: 768px) {
   .hero-bg-container {
-    height: 330px; /* Ligeiramente menor em telas pequenas */
-    width: 80%;
+    height: 360px; /* Maior e imponente em telas pequenas */
+    width: 85%;
   }
   .hero-title {
     font-size: 2.05rem;
